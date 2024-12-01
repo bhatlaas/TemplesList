@@ -34,7 +34,7 @@ def create_map():
         ).add_to(mymap)
 
     # Save the map to an HTML file
-    map_path = "templates/map.html"
+    map_path = "map.html"
     mymap.save(map_path)
 
 # Route for the homepage
