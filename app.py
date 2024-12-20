@@ -7,7 +7,8 @@ app = Flask(__name__)
 
 # Function to load and process the data
 def process_data():
-    file_path = "Top 10 South India Temples - Only Lat Long.csv"
+    
+    file_path = "data/Top 10 South India Temples - Only Lat Long.csv"
     df = pd.read_csv(file_path, encoding="latin1")
 
     # Clean and convert Latitude and Longitude

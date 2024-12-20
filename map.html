@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_104616cfda865ec0e31993b56f7fe8ea {
+                #map_16a068798488ab9fbd4340f1010eb8ab {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,20 +39,23 @@
 <body>
     
     
-            <div class="folium-map" id="map_104616cfda865ec0e31993b56f7fe8ea" ></div>
+            <div class="folium-map" id="map_16a068798488ab9fbd4340f1010eb8ab" ></div>
         
 </body>
 <script>
     
     
-            var map_104616cfda865ec0e31993b56f7fe8ea = L.map(
-                "map_104616cfda865ec0e31993b56f7fe8ea",
+            var map_16a068798488ab9fbd4340f1010eb8ab = L.map(
+                "map_16a068798488ab9fbd4340f1010eb8ab",
                 {
                     center: [23.5942, 72.14],
                     crs: L.CRS.EPSG3857,
-                    zoom: 6,
-                    zoomControl: true,
-                    preferCanvas: false,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
                 }
             );
 
@@ -60,178 +63,213 @@
 
         
     
-            var tile_layer_c227ef50e8f319939f4ae72006ecca73 = L.tileLayer(
+            var tile_layer_8ab99f2ef5aa912b963b345ecb6a3bda = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
             );
         
     
-            tile_layer_c227ef50e8f319939f4ae72006ecca73.addTo(map_104616cfda865ec0e31993b56f7fe8ea);
+            tile_layer_8ab99f2ef5aa912b963b345ecb6a3bda.addTo(map_16a068798488ab9fbd4340f1010eb8ab);
         
     
-            var marker_e47265bf504fe5be8f50bf7a0ef09872 = L.marker(
+            var marker_90d8b43afb2435621dbe129ce52ae513 = L.marker(
                 [23.5942, 72.14],
-                {}
-            ).addTo(map_104616cfda865ec0e31993b56f7fe8ea);
+                {
+}
+            ).addTo(map_16a068798488ab9fbd4340f1010eb8ab);
         
     
-        var popup_6e25cd56cb6ba9e0dd3874cfede6d71e = L.popup({"maxWidth": "100%"});
+        var popup_8d5df9606a03ddb9a6d3602c84b1b435 = L.popup({
+  "maxWidth": "100%",
+});
 
         
             
-                var html_5741454662824d509fa1543cffd1e6d4 = $(`<div id="html_5741454662824d509fa1543cffd1e6d4" style="width: 100.0%; height: 100.0%;">Sun Temple</div>`)[0];
-                popup_6e25cd56cb6ba9e0dd3874cfede6d71e.setContent(html_5741454662824d509fa1543cffd1e6d4);
+                var html_5bec50046267265af702d3ce312ae149 = $(`<div id="html_5bec50046267265af702d3ce312ae149" style="width: 100.0%; height: 100.0%;">Sun Temple</div>`)[0];
+                popup_8d5df9606a03ddb9a6d3602c84b1b435.setContent(html_5bec50046267265af702d3ce312ae149);
             
         
 
-        marker_e47265bf504fe5be8f50bf7a0ef09872.bindPopup(popup_6e25cd56cb6ba9e0dd3874cfede6d71e)
+        marker_90d8b43afb2435621dbe129ce52ae513.bindPopup(popup_8d5df9606a03ddb9a6d3602c84b1b435)
         ;
 
         
     
     
-            var marker_2105d696d982ec6ea71e3c1fc40ef34d = L.marker(
+            var marker_1f6a1924bf9d69a28656df00fe76c4c6 = L.marker(
                 [12.4229, 76.6844],
-                {}
-            ).addTo(map_104616cfda865ec0e31993b56f7fe8ea);
+                {
+}
+            ).addTo(map_16a068798488ab9fbd4340f1010eb8ab);
         
     
-        var popup_5e2d849ed3b1b4be3d011ca12201b12c = L.popup({"maxWidth": "100%"});
+        var popup_81caf8b9dd64aba1e2064c9591b52d14 = L.popup({
+  "maxWidth": "100%",
+});
 
         
             
-                var html_92573254f40b4bd7c21eca015280136a = $(`<div id="html_92573254f40b4bd7c21eca015280136a" style="width: 100.0%; height: 100.0%;">Ranganath Swamy Temple</div>`)[0];
-                popup_5e2d849ed3b1b4be3d011ca12201b12c.setContent(html_92573254f40b4bd7c21eca015280136a);
+                var html_016651b82548b761a76a7d91314c4309 = $(`<div id="html_016651b82548b761a76a7d91314c4309" style="width: 100.0%; height: 100.0%;">Ranganath Swamy Temple</div>`)[0];
+                popup_81caf8b9dd64aba1e2064c9591b52d14.setContent(html_016651b82548b761a76a7d91314c4309);
             
         
 
-        marker_2105d696d982ec6ea71e3c1fc40ef34d.bindPopup(popup_5e2d849ed3b1b4be3d011ca12201b12c)
+        marker_1f6a1924bf9d69a28656df00fe76c4c6.bindPopup(popup_81caf8b9dd64aba1e2064c9591b52d14)
         ;
 
         
     
     
-            var marker_e9439b5d3e84f33f699ed74b64739869 = L.marker(
+            var marker_40bb087aa8b7a3a839df02eb4408435a = L.marker(
                 [13.6288, 79.3975],
-                {}
-            ).addTo(map_104616cfda865ec0e31993b56f7fe8ea);
+                {
+}
+            ).addTo(map_16a068798488ab9fbd4340f1010eb8ab);
         
     
-        var popup_41de65e1a54a5c01ec69ce5f425a9857 = L.popup({"maxWidth": "100%"});
+        var popup_398cc61e4d2328b7961a7a1a70712339 = L.popup({
+  "maxWidth": "100%",
+});
 
         
             
-                var html_1eb1fdf14df3974f8a497cb036052338 = $(`<div id="html_1eb1fdf14df3974f8a497cb036052338" style="width: 100.0%; height: 100.0%;">Tirupati Balaji Temple</div>`)[0];
-                popup_41de65e1a54a5c01ec69ce5f425a9857.setContent(html_1eb1fdf14df3974f8a497cb036052338);
+                var html_e5b094ee8868b435313e7a2fafce8b27 = $(`<div id="html_e5b094ee8868b435313e7a2fafce8b27" style="width: 100.0%; height: 100.0%;">Tirupati Balaji Temple</div>`)[0];
+                popup_398cc61e4d2328b7961a7a1a70712339.setContent(html_e5b094ee8868b435313e7a2fafce8b27);
             
         
 
-        marker_e9439b5d3e84f33f699ed74b64739869.bindPopup(popup_41de65e1a54a5c01ec69ce5f425a9857)
+        marker_40bb087aa8b7a3a839df02eb4408435a.bindPopup(popup_398cc61e4d2328b7961a7a1a70712339)
         ;
 
         
     
     
-            var marker_8214cd21b6d3be98db7a71ac99ad7972 = L.marker(
+            var marker_7ec41aad3650a1c262ea7fe700d5e749 = L.marker(
                 [9.9195, 78.1199],
-                {}
-            ).addTo(map_104616cfda865ec0e31993b56f7fe8ea);
+                {
+}
+            ).addTo(map_16a068798488ab9fbd4340f1010eb8ab);
         
     
-        var popup_b8710ddfc7719fb13a97f5bf20cd85b6 = L.popup({"maxWidth": "100%"});
+        var popup_5c31cd3e165be67bf63bd75334e5349c = L.popup({
+  "maxWidth": "100%",
+});
 
         
             
-                var html_41c695c381de2342c0ecd425dc02180a = $(`<div id="html_41c695c381de2342c0ecd425dc02180a" style="width: 100.0%; height: 100.0%;">Meenakshi Temple</div>`)[0];
-                popup_b8710ddfc7719fb13a97f5bf20cd85b6.setContent(html_41c695c381de2342c0ecd425dc02180a);
+                var html_2e39e9ccd3cb09b56364045d13c9efe5 = $(`<div id="html_2e39e9ccd3cb09b56364045d13c9efe5" style="width: 100.0%; height: 100.0%;">Meenakshi Temple</div>`)[0];
+                popup_5c31cd3e165be67bf63bd75334e5349c.setContent(html_2e39e9ccd3cb09b56364045d13c9efe5);
             
         
 
-        marker_8214cd21b6d3be98db7a71ac99ad7972.bindPopup(popup_b8710ddfc7719fb13a97f5bf20cd85b6)
+        marker_7ec41aad3650a1c262ea7fe700d5e749.bindPopup(popup_5c31cd3e165be67bf63bd75334e5349c)
         ;
 
         
     
     
-            var marker_ed4800246aa2129f208f7c2e2687fe00 = L.marker(
+            var marker_1076801d237783ee86796bcd4dc81a8d = L.marker(
                 [19.8874, 86.0946],
-                {}
-            ).addTo(map_104616cfda865ec0e31993b56f7fe8ea);
+                {
+}
+            ).addTo(map_16a068798488ab9fbd4340f1010eb8ab);
         
     
-        var popup_fdb18dd1f63d653a3f96916962ebf001 = L.popup({"maxWidth": "100%"});
+        var popup_0eaf909314c7fe9944b3b90e64d0a60a = L.popup({
+  "maxWidth": "100%",
+});
 
         
             
-                var html_3a66cadd31d2ca1ebfd9a539b5f124d6 = $(`<div id="html_3a66cadd31d2ca1ebfd9a539b5f124d6" style="width: 100.0%; height: 100.0%;">Sun Konark Temple</div>`)[0];
-                popup_fdb18dd1f63d653a3f96916962ebf001.setContent(html_3a66cadd31d2ca1ebfd9a539b5f124d6);
+                var html_e55298f2004a09146a5fa2d40af2d3c4 = $(`<div id="html_e55298f2004a09146a5fa2d40af2d3c4" style="width: 100.0%; height: 100.0%;">Sun Konark Temple</div>`)[0];
+                popup_0eaf909314c7fe9944b3b90e64d0a60a.setContent(html_e55298f2004a09146a5fa2d40af2d3c4);
             
         
 
-        marker_ed4800246aa2129f208f7c2e2687fe00.bindPopup(popup_fdb18dd1f63d653a3f96916962ebf001)
+        marker_1076801d237783ee86796bcd4dc81a8d.bindPopup(popup_0eaf909314c7fe9944b3b90e64d0a60a)
         ;
 
         
     
     
-            var marker_1db746a6bf1b5dfe8562bf39bf1da1f9 = L.marker(
+            var marker_5fb571c125a8570f3ca6d0ad7f22b1db = L.marker(
                 [10.7821, 79.1319],
-                {}
-            ).addTo(map_104616cfda865ec0e31993b56f7fe8ea);
+                {
+}
+            ).addTo(map_16a068798488ab9fbd4340f1010eb8ab);
         
     
-        var popup_f92564b4c377635f72c0e0b19d065bd4 = L.popup({"maxWidth": "100%"});
+        var popup_b844cff3e4630dd4df56d0d7deac575d = L.popup({
+  "maxWidth": "100%",
+});
 
         
             
-                var html_dbb45703d66245b5e10cb2380a7cd18a = $(`<div id="html_dbb45703d66245b5e10cb2380a7cd18a" style="width: 100.0%; height: 100.0%;">Tanjore Temple - Bhideswar Temple </div>`)[0];
-                popup_f92564b4c377635f72c0e0b19d065bd4.setContent(html_dbb45703d66245b5e10cb2380a7cd18a);
+                var html_282471fc0f310c2c772687dbf02f9ccf = $(`<div id="html_282471fc0f310c2c772687dbf02f9ccf" style="width: 100.0%; height: 100.0%;">Tanjore Temple - Bhideswar Temple </div>`)[0];
+                popup_b844cff3e4630dd4df56d0d7deac575d.setContent(html_282471fc0f310c2c772687dbf02f9ccf);
             
         
 
-        marker_1db746a6bf1b5dfe8562bf39bf1da1f9.bindPopup(popup_f92564b4c377635f72c0e0b19d065bd4)
+        marker_5fb571c125a8570f3ca6d0ad7f22b1db.bindPopup(popup_b844cff3e4630dd4df56d0d7deac575d)
         ;
 
         
     
     
-            var marker_4d0832f6b6993f37ffdb814a032adf87 = L.marker(
+            var marker_13f9181da8eb56eaa7c4c20bbd9d73fb = L.marker(
                 [9.2881, 79.3129],
-                {}
-            ).addTo(map_104616cfda865ec0e31993b56f7fe8ea);
+                {
+}
+            ).addTo(map_16a068798488ab9fbd4340f1010eb8ab);
         
     
-        var popup_0e68f1c122c67df642408f87a1e5f433 = L.popup({"maxWidth": "100%"});
+        var popup_b4a026f38a1cc3ee4fb82c7a45585a48 = L.popup({
+  "maxWidth": "100%",
+});
 
         
             
-                var html_00ff9f351086b9086c53566d06e69320 = $(`<div id="html_00ff9f351086b9086c53566d06e69320" style="width: 100.0%; height: 100.0%;">Rameshwaram Temple</div>`)[0];
-                popup_0e68f1c122c67df642408f87a1e5f433.setContent(html_00ff9f351086b9086c53566d06e69320);
+                var html_c50b9f7366d9663f2b45590c4b6b3364 = $(`<div id="html_c50b9f7366d9663f2b45590c4b6b3364" style="width: 100.0%; height: 100.0%;">Rameshwaram Temple</div>`)[0];
+                popup_b4a026f38a1cc3ee4fb82c7a45585a48.setContent(html_c50b9f7366d9663f2b45590c4b6b3364);
             
         
 
-        marker_4d0832f6b6993f37ffdb814a032adf87.bindPopup(popup_0e68f1c122c67df642408f87a1e5f433)
+        marker_13f9181da8eb56eaa7c4c20bbd9d73fb.bindPopup(popup_b4a026f38a1cc3ee4fb82c7a45585a48)
         ;
 
         
     
     
-            var marker_011e7890dd56e93d1e02584cfe338a40 = L.marker(
+            var marker_e8a65bcf5ca49541e2be3daa058cc08a = L.marker(
                 [8.4829, 76.9437],
-                {}
-            ).addTo(map_104616cfda865ec0e31993b56f7fe8ea);
+                {
+}
+            ).addTo(map_16a068798488ab9fbd4340f1010eb8ab);
         
     
-        var popup_85683277a535c068d37999bc4dbe5dc7 = L.popup({"maxWidth": "100%"});
+        var popup_7e3201b4cc16e34093595b337d2f98f4 = L.popup({
+  "maxWidth": "100%",
+});
 
         
             
-                var html_1efcb5ed023cf7362261f1943d5c58c7 = $(`<div id="html_1efcb5ed023cf7362261f1943d5c58c7" style="width: 100.0%; height: 100.0%;">Sree Padmanabhaswamy Temple</div>`)[0];
-                popup_85683277a535c068d37999bc4dbe5dc7.setContent(html_1efcb5ed023cf7362261f1943d5c58c7);
+                var html_208d5e0be0e9f67365c8edba4f6613c4 = $(`<div id="html_208d5e0be0e9f67365c8edba4f6613c4" style="width: 100.0%; height: 100.0%;">Sree Padmanabhaswamy Temple</div>`)[0];
+                popup_7e3201b4cc16e34093595b337d2f98f4.setContent(html_208d5e0be0e9f67365c8edba4f6613c4);
             
         
 
-        marker_011e7890dd56e93d1e02584cfe338a40.bindPopup(popup_85683277a535c068d37999bc4dbe5dc7)
+        marker_e8a65bcf5ca49541e2be3daa058cc08a.bindPopup(popup_7e3201b4cc16e34093595b337d2f98f4)
         ;
 
         
